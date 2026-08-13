@@ -79,7 +79,7 @@ export function HomePage() {
                         </div>
 
                         <div className="flex items-center gap-6 flex-wrap justify-center lg:justify-start mt-8">
-                            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                            <a href="resume.pdf" target="_blank" rel="noopener noreferrer">
                                 <button className="group h-12 sm:h-14 px-6 sm:px-8 border border-cyan-400 rounded-full flex items-center justify-center gap-2 text-cyan-400 text-sm font-semibold uppercase tracking-widest hover:bg-cyan-400 hover:text-[#0A0A0F] transition-all duration-200 cursor-pointer">
                                     <span>View Resume</span>
                                     <ChevronRight className="w-4 h-4 transition-transform duration-200 group-hover:translate-x-1" />
