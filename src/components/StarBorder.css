@@ -1,0 +1,46 @@
+.star-border-container {
+    display: inline-block;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.rotating-border {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 140%;
+    height: 140%;
+    border-radius: 50%;
+    background: conic-gradient(
+        from 0deg,
+        transparent 0deg 331deg,
+        var(--star-color) 334deg 338deg,
+        transparent 341deg 360deg
+    );
+    filter: blur(5px);
+    opacity: 0.65;
+    transform: translate(-50%, -50%);
+    transform-origin: center;
+    z-index: 0;
+    pointer-events: none;
+    animation: star-glow-orbit var(--star-speed, 12s) linear infinite;
+    animation-delay: var(--star-delay, 0s);
+}
+
+@keyframes star-glow-orbit {
+    from { transform: translate(-50%, -50%) rotate(0deg); }
+    to { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+.inner-content {
+    position: relative;
+    background: #16161d;
+    color: white;
+    text-align: left;
+    border-radius: 18px;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
