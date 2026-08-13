@@ -16,37 +16,40 @@ import runawayCover from '../assets/runaway.jpg'
 import brooklynBabyCover from '../assets/brooklyn-baby.jpg'
 import nuvvadiginadheCover from '../assets/nuvvadiginadhe.png'
 
+const baseUrl = import.meta.env.BASE_URL
+
 const tracks = [
     {
         title: 'drivers license',
         artist: 'Olivia Rodrigo',
-        src: '/music/Drivers%20license%20-%20Olivia%20Rodrigo-%5BAudioTrimmer.com%5D.mp3',
+        src: `${baseUrl}music/Drivers%20license%20-%20Olivia%20Rodrigo-%5BAudioTrimmer.com%5D.mp3`,
         cover: driversLicenseCover,
     },
     {
         title: 'Happier Than Ever',
         artist: 'Billie Eilish',
-        src: '/music/Happier%20Than%20Ever%20-%20Billie%20Eilish-%5BAudioTrimmer.com%5D.m4a',
+        src: `${baseUrl}music/Happier%20Than%20Ever%20-%20Billie%20Eilish-%5BAudioTrimmer.com%5D.m4a`,
         cover: happierThanEverCover,
     },
     {
         title: 'Runaway',
         artist: 'Kanye West',
-        src: '/music/Kanye%20West%20-%20Runaway-%5BAudioTrimmer.com%5D.mp3',
+        src: `${baseUrl}music/Kanye%20West%20-%20Runaway-%5BAudioTrimmer.com%5D.mp3`,
         cover: runawayCover,
     },
     {
         title: 'Brooklyn Baby',
         artist: 'Lana Del Rey',
-        src: '/music/Lana%20Del%20Rey%20-%20Brooklyn%20Baby%20(Official%20Audio)(mp3j.cc)-%5BAudioTrimmer.com%5D.m4a',
+        src: `${baseUrl}music/Lana%20Del%20Rey%20-%20Brooklyn%20Baby%20(Official%20Audio)(mp3j.cc)-%5BAudioTrimmer.com%5D.m4a`,
         cover: brooklynBabyCover,
     },
     {
         title: 'Nuvvadiginadhe',
         artist: 'Anirudh Ravichander',
-        src: '/music/Nuvvadiginadhe.mp3',
+        src: `${baseUrl}music/Nuvvadiginadhe.mp3`,
         cover: nuvvadiginadheCover,
     },
+
 ]
 
 export default function MusicPlayer() {
