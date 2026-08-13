@@ -70,10 +70,10 @@ export function AboutPage() {
 
                     <main className="flex min-h-[70vh] flex-col items-center justify-center px-6 text-center">
                         <div>
-                            <h1 className="bg-linear-to-b from-zinc-100 via-white to-zinc-500 bg-clip-text text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-semibold leading-tight text-transparent drop-shadow-[0_1px_0_rgba(255,255,255,0.16)]">
+                            <h1 className="bg-linear-to-b gradient-text from-zinc-100 via-white to-zinc-500 bg-clip-text text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-semibold leading-tight text-transparent drop-shadow-[0_1px_0_rgba(255,255,255,0.16)]">
                                 Hello again? <br />
                                 My name is{' '}
-                                <span className="bg-linear-to-b from-cyan-100 via-cyan-300 to-cyan-600 bg-clip-text text-transparent">
+                                <span className="bg-linear-to-b gradient-text from-cyan-100 via-cyan-300 to-cyan-600 bg-clip-text text-transparent">
                                     Abhiram
                                 </span>
                             </h1>
