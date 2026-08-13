@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="100%" height="100%">
+  <!-- Dark Background matching #0A0A0F -->
+  <rect width="64" height="64" rx="16" fill="#0A0A0F"/>
+  
+  <!-- Subtle Cyan Border Accent -->
+  <rect width="62" height="62" x="1" y="1" rx="15" fill="none" stroke="#22d3ee" stroke-width="2" stroke-opacity="0.25"/>
+  
+  <!-- Brand Monogram: White 'A' with Cyan '.' -->
+  <text x="24" y="46" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="42" fill="#FFFFFF" text-anchor="middle">A</text>
+  <circle cx="48" cy="42" r="4.5" fill="#22d3ee"/>
+</svg>
