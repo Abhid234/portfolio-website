@@ -6,7 +6,7 @@ const projects = [
         title: 'Portfolio Website',
         description:
             'This site — a fully custom React + Tailwind portfolio with animated hero sections, a music player, and interactive project cards, built and iterated on from scratch.',
-        href: 'https://github.com/Abhid234',
+        href: 'https://github.com/Abhid234/portfolio-website',
         linkLabel: 'View GitHub',
     },
     {
